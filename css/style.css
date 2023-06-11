@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+html{
+    scroll-behavior:smooth;/*chrome://flags/#smooth-scrolling se não pegar*/
+    
+}
+body {
+    background-image: linear-gradient(#9c8989,rgb(51, 48, 48));
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pagina_construcao{
+    background-image: none;
+
+}
+#pagina_construcao h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    color: rgb(12, 12, 12);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#pagina_construcao img{
+    display: block;
+    margin: 0 auto;
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #9c8989; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+   
+    
+}
+.container_alimentos{
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+
+.container_alimentos .itens h1{
+    margin-top: -80px;
+    color: #faf9f8;
+    text-shadow: 1px 3px #171817 ;
+}
+.container_bebidas{
+    max-width: 100%;
+    margin: 0 auto;
+   
+}
+.container_bebidas .itens h1{
+    margin-top: -80px;
+    color: #faa6aa;
+    text-shadow: 1px 3px #05050c ;
+}
+.container_limpeza{
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+.container_limpeza .itens h1{
+    margin-top: -80px;
+    color: #74f590f1;
+    text-shadow: 1px 3px #131212 ;
+}
+.container_ultilidades{
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+.container_ultilidades .itens h1{
+    margin-top: -80px;
+    color: #facd78;
+    text-shadow: 1px 3px #0a0a0a ;
+}
+.container_guloseimas{
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+.container_guloseimas .itens h1{
+    margin-top: -80px;
+    color: #fc5eb5;
+    text-shadow: 1px 3px rgb(10, 6, 0) ;
+}
+header img{
+    height: 60px;
+    width: 300px;
+}
+.itens h1{
+    background-color:#1f1f24a1 ;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: #ed1b24;
+    margin-top: 0px;
+    font-size: 70px;
+    text-shadow: #1f1f24 3px 2px;
+    border: 3px solqid green;
+
+   
+}
+.itens p{
+    font-size: 17px;
+    padding: 10px; 
+}
+.header{
+    background-color: #ed1b24;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    padding: 25px;
+    font-size: 18px;
+}
+.menu li{
+    margin-left: 10px;
+    justify-content: center;
+    list-style: none; 
+}
+.menu a{ 
+    text-decoration: none;
+    color:#FFF;
+    /*Lembrar de tirar*/
+    padding: 10px;
+    border-radius: 20px;
+    transition: .3s all;
+}
+.menu a:hover{
+    background-color:#FFF;
+    color: #ed1b24;
+}
+section.mercadorias{
+    border: 3px solid qblue;
+    margin-top: 100px;
+    
+   
+
+}
+section #alimentos{
+    border: 3px soliad palevioletred;
+    background-image: url(../imgs/backgrounds/background_feijao.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+section #bebidas{
+    background-image: url(../imgs/backgrounds/background_bebidas.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section #limpeza{
+    background-image: url(../imgs/backgrounds/background_limpeza.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section #ultilidades{
+    background-image: url(../imgs/backgrounds/background_ultilidades.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section #guloseimas{
+    background-image: url(../imgs/backgrounds/background_guloseimas.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.itens li img{  
+    
+    width: 170px;
+    height: 170px;
+    padding: 10px;
+}
+
+.itens ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 10px;
+    align-items: center;
+    border: 3px solqid red;
+}
+
+.itens li{
+    
+    border-radius: 30px;
+    text-align: center;
+    list-style: none;
+    background-color: #FFF;
+}
+
+    
+.itens a{
+    display: block;
+    margin-left: 93%;
+    width: 69px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #b30000;
+    color: #FFF;
+    padding: 3px;
+    margin-top: 10px;
+    transition: .3s all;
+}
+.itens li a{
+    display:block;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #ed1b24;
+    color: #FFF;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 260px;
+    transition: .3s all;   
+}
+
+.itens a:hover{
+    background-color: #ff0000;
+    color: #ffffff;
+    box-shadow: 0px 0px 10px #fc0000;
+}
+footer{
+    margin-top: 50px;
+    padding: 30px 10px 15px 10px;
+    background-color: rgb(56, 55, 55);
+}
+
+.rodape{
+    color: darkgrey;
+    text-align: center;
+}
+.rodape a{
+    text-decoration: none;
+    color: #1b41ed;
+    padding-top:10px;
+    margin: 0 auto;
+    width: 190px ;
+}
+.rodape a:hover{
+    color:#aab9ff;
+}
+.banners{
+   margin-bottom: -90px;
+   padding: 10px; 
+   margin-top: 50px;
+   
+   
+}
+.banners img{
+    margin: 0 auto;
+    width: 990px;
+    height: 400px;
+    border-radius: 50px;
+}
+
+   
+
+
